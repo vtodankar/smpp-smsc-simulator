@@ -4,5 +4,3 @@ WORKDIR /app
 ADD ./smscsimulator.cpp /app/
 
 RUN g++ smscsimulator.cpp -o MLSMSCSimulator
-
-CMD ["./MLSMSCSimulator"]
